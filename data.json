@@ -1,7 +1,7 @@
 {
-    "collegeCode": "SNT",
+    "collegeCode": "ASIET",
 
-    "college": "Sree Narayana Guru Institute of Science and Technology",
+    "college": "Adishankara Institute of Engineering And Technology",
 
     "about": "Lorem ipsum dolor sit amet consectetur adipiscing, elit ultricies imperdiet neque mattis, orci pellentesque turpis facilisi leo. Laoreet donec tortor sagittis habitasse eleifend conubia quis lacinia accumsan auctor, montes morbi natoque convallis integer aliquam posuere eu nulla, proin fames dapibus mattis sociis ligula blandit quam potenti. Himenaeos fringilla tincidunt aptent porta ultrices velit dignissim senectus purus suspendisse, fames eleifend feugiat nam hac montes semper pretium potenti, viverra curae netus volutpat cras per eu cubilia primis.",
 
@@ -51,9 +51,9 @@
             {
                 "image": "https://mulearn.org/assets/home/Chart.webp"
             },
-			{
-				"image": "https://learn.mulearn.org/assets/challenge/typingsample.webp"
-			}
+            {
+                "image": "https://learn.mulearn.org/assets/challenge/typingsample.webp"
+            }
         ],
         "row2": [
             {
@@ -75,40 +75,88 @@
 
     "team": {
         "staffAdvisor": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+            "name": "Sharika T R",
+            "image": "./src/assets/images/sharika.jpeg",
+            "role": "Staff Advisor"
         },
         "campusLead": {
-            "name": "Elon Musk",
-            "image": "https://th.bing.com/th/id/OIP.DjyPSeO-t7bK2agoLSYJzgHaHa?pid=ImgDet&rs=1"
+            "name": "Snehamol K M",
+            "image": "./src/assets/images/Snehamol k m.jpg",
+            "role": "Campus Lead"
         },
         "campusCoLead": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+            "name": "Mathew Joseph T A",
+            "image": "./src/assets/images/Mathew Joseph T A.png",
+            "role": "Campus Co-Lead"
         },
-        "treasurer": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+        "creativeMember1": {
+            "name": "Amala B",
+            "image": "./src/assets/images/Amala B.jpg",
+            "role": "Creative Lead"
         },
-        "technicalLead": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+        "creativeMember2": {
+            "name": "Amal Anish",
+            "image": "./src/assets/images/Amal Anish (2).jpg",
+            "role": "Creative Designer"
+        },
+        "DesignLead": {
+            "name": "Ameesh Mohammed",
+            "image": "./src/assets/images/Snehamol k m.jpg",
+            "role": "Design Lead"
+        },
+        "designMember2": {
+            "name": "Angel Devis",
+            "image": "./src/assets/images/Angel Devis.jpg",
+            "role": "UI/UX Designer"
         },
         "mediaLead": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+            "name": "Saniya Manoj",
+            "image": "./src/assets/images/saniya_manoj.jpeg",
+            "role": "Media Lead"
         },
-        "contentLead": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+        "mediaMember2": {
+            "name": "Annpriya Biju",
+            "image": "./src/assets/images/Annpriya.jpg",
+            "role": "Social Media Manager"
         },
-        "operationLead": {
-            "name": "Enric S Neelamkavil",
-            "image": "https://mulearn-cce.vercel.app/static/media/img1.31943833473f0d0a748b.png"
+        "mediaMember3": {
+            "name": "Athul Ashok",
+            "image": "./src/assets/images/Athul Asok.jpg",
+            "role": "Content Strategist"
+        },
+        "technicalLead": {
+            "name": "Parvathy U",
+            "image": "./src/assets/images/Parvathy_.jpg",
+            "role": "Technical Lead"
+        },
+        "techMember2": {
+            "name": "Sanjay S",
+            "image": "./src/assets/images/SanjayS.jpg",
+            "role": "Full Stack Developer"
+        },
+        "communicationMember1": {
+            "name": "Harijith Asokan",
+            "image": "./src/assets/images/Harijith Asokan.jpg",
+            "role": "Communication Lead"
+        },
+        "communicationMember2": {
+            "name": "Afiya Fathima",
+            "image": "./src/assets/images/Afiya Fathima.jpg",
+            "role": "PR Manager"
+        },
+        "communicationMember3": {
+            "name": "Revathy V Nair",
+            "image": "./src/assets/images/Revathy V Nair_.jpg",
+            "role": "Event Coordinator"
+        },
+        "communicationMember4": {
+            "name": "Sreelekshmi Wilson",
+            "image": "./src/assets/images/Sreelekshmi Wilson.jpg",
+            "role": "Outreach Manager"
         }
     },
 
-    "discordLink": "",
+    "discordLink": "https://discord.gg/CFUWBKDW",
 
     "whatsAppLink": "",
 
