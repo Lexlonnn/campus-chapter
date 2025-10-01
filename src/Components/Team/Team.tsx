@@ -130,9 +130,9 @@ const Team = () => {
     },
   ];
 
-  const getTeamSize = (category) => {
-    return category === "Core Team" ? 3 : 4;
-  };
+  // const getTeamSize = (category) => {
+  //   return category === "Core Team" ? 3 : 4;
+  // };
 
   const getCurrentSlideMembers = () => {
     // Get unique categories
@@ -166,7 +166,7 @@ const Team = () => {
     setTimeout(() => setIsAnimating(false), 700);
   }, [totalSlides, isAnimating]);
 
-  const goToSlide = (index) => {
+  const goToSlide = (index : number) => {
     if (isAnimating || index === currentIndex) return;
     setIsAnimating(true);
     setDirection(index > currentIndex ? "next" : "prev");
@@ -180,12 +180,12 @@ const Team = () => {
 
     const interval = setInterval(() => {
       nextSlide();
-    }, 5000);
+    }, 4000);
 
     return () => clearInterval(interval);
   }, [isAutoPlaying, nextSlide]);
 
-  const handleManualNavigation = (dir) => {
+  const handleManualNavigation = (dir : string) => {
     setIsAutoPlaying(false);
     dir === "next" ? nextSlide() : prevSlide();
   };
