@@ -17,11 +17,11 @@ const Connect = () => {
                         </p>
                     </div>
                     <div className={styles.socialMedia}>
-                        <a href={data.discordLink} className={styles.discord}>
+                        <a href={data.discordLink} className={styles.discord} target="_blank" rel="noopener noreferer">
                             <Discord />
                             Join Discord
                         </a>
-                        <a href={data.whatsAppLink} className={styles.Whatsapp}>
+                        <a href={data.whatsAppLink} className={styles.Whatsapp} target="_blank" rel="noopener noreferer">
                             <Whatsapp />
                             Join Whatsapp
                         </a>

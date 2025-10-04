@@ -1,44 +1,44 @@
 {
-    "collegeCode": "ASIET",
+    "collegeCode": "ASI",
 
     "college": "Adishankara Institute of Engineering And Technology",
 
-    "about": "Lorem ipsum dolor sit amet consectetur adipiscing, elit ultricies imperdiet neque mattis, orci pellentesque turpis facilisi leo. Laoreet donec tortor sagittis habitasse eleifend conubia quis lacinia accumsan auctor, montes morbi natoque convallis integer aliquam posuere eu nulla, proin fames dapibus mattis sociis ligula blandit quam potenti. Himenaeos fringilla tincidunt aptent porta ultrices velit dignissim senectus purus suspendisse, fames eleifend feugiat nam hac montes semper pretium potenti, viverra curae netus volutpat cras per eu cubilia primis.",
+    "about": "The µLearn ASIET Student Chapter is a vibrant community at Adi Shankara Institute of Engineering and Technology that fosters collaborative learning, skill development, and innovation. As part of the global µLearn network, we empower students to upskill through workshops, hands-on projects, competitions, and industry interactions. Our chapter encourages peer learning, creativity, and real-world application of knowledge, while also promoting community engagement and digital literacy among students. ",
 
     "events": [
         {
             "month": "Sep",
-            "date": "29",
-            "head": "Event 1",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
+            "date": "16",
+            "head": "Inspiration Station Radio",
+            "para": "Inspiration Station Radio was an event by Mulearn ASIET to engage and inspire students through interactive radio sessions.",
             "img": "https://wallpaperaccess.com/full/1642272.jpg"
         },
         {
             "month": "Sep",
-            "date": "27",
-            "head": "Opportunities in TCS EIS",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
+            "date": "02",
+            "head": "Onathallu",
+            "para": "The Onathallu Debate Competition on 2nd September 2025 was held to promote debating, public speaking, and critical thinking among students during Onam celebrations.",
             "img": "https://wallpaperaccess.com/full/1642272.jpg"
         },
         {
-            "month": "Sep",
-            "date": "26",
-            "head": "Opportunities in TCS EIS",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
+            "month": "Aug",
+            "date": "09",
+            "head": "Mu-Hunt",
+            "para": "The Mu-Hunt was a skill- and speed-based treasure hunt organized by μLearn at ASIET.",
             "img": "https://wallpaperaccess.com/full/1642272.jpg"
         },
         {
-            "month": "Sep",
-            "date": "25",
-            "head": "Opportunities in TCS EIS",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
+            "month": "Aug",
+            "date": "06",
+            "head": "AuthentiWrite",
+            "para": "AuthentiWrite was a plagiarism awareness workshop by Mulearn ASIET for final-year students on 6th August 2025.",
             "img": "https://wallpaperaccess.com/full/1642272.jpg"
         },
         {
-            "month": "Sep",
-            "date": "25",
-            "head": "Opportunities in TCS EIS",
-            "para": "Webinar on Engineering and Industrial Services division of TCS.",
+            "month": "Aug",
+            "date": "03",
+            "head": "Code4Campus",
+            "para": "A week-long web development competition to build and implement essential college solutions.",
             "img": "https://wallpaperaccess.com/full/1642272.jpg"
         }
     ],
@@ -74,97 +74,97 @@
     },
 
     "team": {
-        "staffAdvisor": {
-            "name": "Sharika T R",
-            "image": "./src/assets/images/sharika.jpeg",
-            "role": "Staff Advisor"
-        },
-        "campusLead": {
-            "name": "Snehamol K M",
-            "image": "./src/assets/images/Snehamol k m.jpg",
-            "role": "Campus Lead"
-        },
-        "campusCoLead": {
-            "name": "Mathew Joseph T A",
-            "image": "./src/assets/images/Mathew Joseph T A.png",
-            "role": "Campus Co-Lead"
-        },
-        "creativeMember1": {
-            "name": "Amala B",
-            "image": "./src/assets/images/Amala B.jpg",
-            "role": "Creative Lead"
-        },
-        "creativeMember2": {
-            "name": "Amal Anish",
-            "image": "./src/assets/images/Amal Anish (2).jpg",
-            "role": "Creative Designer"
-        },
-        "DesignLead": {
-            "name": "Ameesh Mohammed",
-            "image": "./src/assets/images/Snehamol k m.jpg",
-            "role": "Design Lead"
-        },
-        "designMember2": {
-            "name": "Angel Devis",
-            "image": "./src/assets/images/Angel Devis.jpg",
-            "role": "UI/UX Designer"
-        },
-        "mediaLead": {
-            "name": "Saniya Manoj",
-            "image": "./src/assets/images/saniya_manoj.jpeg",
-            "role": "Media Lead"
-        },
-        "mediaMember2": {
-            "name": "Annpriya Biju",
-            "image": "./src/assets/images/Annpriya.jpg",
-            "role": "Social Media Manager"
-        },
-        "mediaMember3": {
-            "name": "Athul Ashok",
-            "image": "./src/assets/images/Athul Asok.jpg",
-            "role": "Content Strategist"
-        },
-        "technicalLead": {
-            "name": "Parvathy U",
-            "image": "./src/assets/images/Parvathy_.jpg",
-            "role": "Technical Lead"
-        },
-        "techMember2": {
-            "name": "Sanjay S",
-            "image": "./src/assets/images/SanjayS.jpg",
-            "role": "Full Stack Developer"
-        },
-        "communicationMember1": {
-            "name": "Harijith Asokan",
-            "image": "./src/assets/images/Harijith Asokan.jpg",
-            "role": "Communication Lead"
-        },
-        "communicationMember2": {
-            "name": "Afiya Fathima",
-            "image": "./src/assets/images/Afiya Fathima.jpg",
-            "role": "PR Manager"
-        },
-        "communicationMember3": {
-            "name": "Revathy V Nair",
-            "image": "./src/assets/images/Revathy V Nair_.jpg",
-            "role": "Event Coordinator"
-        },
-        "communicationMember4": {
-            "name": "Sreelekshmi Wilson",
-            "image": "./src/assets/images/Sreelekshmi Wilson.jpg",
-            "role": "Outreach Manager"
-        }
+    "staffAdvisor": {
+        "name": "Sharika T R",
+        "image": "/execom/sharika.jpeg",
+        "role": "Staff Advisor"
     },
+    "campusLead": {
+        "name": "Snehamol K M",
+        "image": "/execom/Snehamol k m.jpg",
+        "role": "Campus Lead"
+    },
+    "campusCoLead": {
+        "name": "Mathew Joseph T A",
+        "image": "/execom/Mathew Joseph T A.png",
+        "role": "Campus Co-Lead"
+    },
+    "creativeMember1": {
+        "name": "Amala B",
+        "image": "/execom/Amala B.jpg",
+        "role": "Creative Lead"
+    },
+    "creativeMember2": {
+        "name": "Amal Anish",
+        "image": "/execom/Amal Anish (2).jpg",
+        "role": "Creative Designer"
+    },
+    "DesignLead": {
+        "name": "Ameesh Mohammed",
+        "image": "/execom/Snehamol k m.jpg",
+        "role": "Design Lead"
+    },
+    "designMember2": {
+        "name": "Angel Devis",
+        "image": "/execom/Angel Devis.jpg",
+        "role": "UI/UX Designer"
+    },
+    "mediaLead": {
+        "name": "Saniya Manoj",
+        "image": "/execom/saniya_manoj.jpeg",
+        "role": "Media Lead"
+    },
+    "mediaMember2": {
+        "name": "Annpriya Biju",
+        "image": "/execom/Annpriya.jpg",
+        "role": "Social Media Manager"
+    },
+    "mediaMember3": {
+        "name": "Athul Ashok",
+        "image": "/execom/Athul Asok.jpg",
+        "role": "Content Strategist"
+    },
+    "technicalLead": {
+        "name": "Parvathy U",
+        "image": "/execom/Parvathy_.jpg",
+        "role": "Technical Lead"
+    },
+    "techMember2": {
+        "name": "Sanjay S",
+        "image": "/execom/SanjayS.jpg",
+        "role": "Full Stack Developer"
+    },
+    "communicationMember1": {
+        "name": "Harijith Asokan",
+        "image": "/execom/Harijith Asokan.jpg",
+        "role": "Communication Lead"
+    },
+    "communicationMember2": {
+        "name": "Afiya Fathima",
+        "image": "/execom/Afiya Fathima.jpg",
+        "role": "PR Manager"
+    },
+    "communicationMember3": {
+        "name": "Revathy V Nair",
+        "image": "/execom/Revathy V Nair_.jpg",
+        "role": "Event Coordinator"
+    },
+    "communicationMember4": {
+        "name": "Sreelekshmi Wilson",
+        "image": "/execom/Sreelekshmi Wilson.jpg",
+        "role": "Outreach Manager"
+    }
+},
 
     "discordLink": "https://discord.gg/CFUWBKDW",
 
-    "whatsAppLink": "",
+    "whatsAppLink": "https://chat.whatsapp.com/Feijsfg9iwz2HdQYMraH5V?mode=ems_copy_t",
 
-    "email": "mulearn@cce.edu.in",
+    "email": "mulearnasi@gmail.com",
 
-    "linkedIn": "",
+    "linkedIn": "https://www.linkedin.com/company/mulearn-asiet",
 
-    "instagram": "",
+    "instagram": "https://www.instagram.com/mulearn.asi?igsh=MTB0c2JkYmlkNmlm",
 
     "twitter": "",
 

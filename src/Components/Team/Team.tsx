@@ -130,10 +130,6 @@ const Team = () => {
     },
   ];
 
-  // const getTeamSize = (category) => {
-  //   return category === "Core Team" ? 3 : 4;
-  // };
-
   const getCurrentSlideMembers = () => {
     // Get unique categories
     const categories = [...new Set(teamMembers.map(m => m.category))];
@@ -166,7 +162,7 @@ const Team = () => {
     setTimeout(() => setIsAnimating(false), 700);
   }, [totalSlides, isAnimating]);
 
-  const goToSlide = (index : number) => {
+  const goToSlide = (index: number) => {
     if (isAnimating || index === currentIndex) return;
     setIsAnimating(true);
     setDirection(index > currentIndex ? "next" : "prev");
@@ -185,7 +181,7 @@ const Team = () => {
     return () => clearInterval(interval);
   }, [isAutoPlaying, nextSlide]);
 
-  const handleManualNavigation = (dir : string) => {
+  const handleManualNavigation = (dir: string) => {
     setIsAutoPlaying(false);
     dir === "next" ? nextSlide() : prevSlide();
   };
@@ -238,6 +234,7 @@ const Team = () => {
                 experiences and drive innovation forward.
               </p>
 
+              {/* Desktop Controls */}
               <div className={styles.controls}>
                 <button
                   onClick={() => handleManualNavigation("prev")}
@@ -291,7 +288,7 @@ const Team = () => {
             </div>
           </div>
 
-          {/* Right Side - 2x2 Grid Cards */}
+          {/* Right Side - Cards Grid */}
           <div className={styles.rightSection}>
             <div className={styles.cardsWrapper}>
               <div
@@ -328,6 +325,58 @@ const Team = () => {
                 ))}
               </div>
               <div className={styles.cardsGlow}></div>
+            </div>
+
+            {/* Mobile Controls - Below Cards */}
+            <div className={styles.mobileControls}>
+              <button
+                onClick={() => handleManualNavigation("prev")}
+                disabled={isAnimating}
+                className={styles.navButton}
+                aria-label="Previous team"
+              >
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                >
+                  <polyline points="15 18 9 12 15 6"></polyline>
+                </svg>
+              </button>
+              <button
+                onClick={() => handleManualNavigation("next")}
+                disabled={isAnimating}
+                className={styles.navButton}
+                aria-label="Next team"
+              >
+                <svg
+                  width="20"
+                  height="20"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                >
+                  <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
+              </button>
+
+              <div className={styles.dots}>
+                {Array.from({ length: totalSlides }).map((_, index) => (
+                  <button
+                    key={index}
+                    onClick={() => goToSlide(index)}
+                    disabled={isAnimating}
+                    className={`${styles.dot} ${
+                      currentIndex === index ? styles.dotActive : ""
+                    }`}
+                    aria-label={`Go to slide ${index + 1}`}
+                  />
+                ))}
+              </div>
             </div>
           </div>
         </div>
