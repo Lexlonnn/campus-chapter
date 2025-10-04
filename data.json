@@ -46,21 +46,46 @@
     "gallery": {
         "row1": [
             {
-                "image": "https://mulearn.org/assets/home/illustration.webp"
+                "image": "/gallery/g1.jpeg"
             },
             {
-                "image": "https://mulearn.org/assets/home/Chart.webp"
+                "image": "/gallery/g2.jpeg"
             },
             {
-                "image": "https://learn.mulearn.org/assets/challenge/typingsample.webp"
+                "image": "/gallery/g3.jpeg"
+            },
+            {
+                "image": "/gallery/g4.jpeg"
+            },
+            {
+                "image": "/gallery/g5.jpeg"
+            },{
+                "image": "/gallery/g6.jpeg"
+            },
+            {
+                "image": "/gallery/g7.jpeg"
             }
         ],
         "row2": [
             {
-                "image": "https://th.bing.com/th/id/OIP.p5zC9uLm5ByGSy8gYI0McAHaE8?pid=ImgDet&rs=1"
+                "image": "/gallery/g8.jpeg"
             },
             {
-                "image": "https://images.squarespace-cdn.com/content/v1/5c710438b914490d5769a64f/b4fb2b4f-5f95-41a1-9416-d156d0ae273f/Most+Famous+Astrologer+in+the+World.jpg"
+                "image": "/gallery/g9.jpeg"
+            },
+            {
+                "image": "/gallery/g10.jpeg"
+            },
+            {
+                "image": "/gallery/g11.jpeg"
+            },
+            {
+                "image": "/gallery/g12.jpeg"
+            },{
+                "image": "/gallery/g13.jpeg"
+            },
+            {
+                "image": "/gallery/g14.jpeg"
             }
         ]
     },
