@@ -84,48 +84,46 @@ const Statistics = () => {
     }, [data.statistics]);
 
     return (
-        <div className={styles.StatWrapper}>
-            <h1>Our Statistics</h1>
-            <div className={styles.contentDiv}>
-                <div className={styles.leftContainer} ref={targetRef}>
-                    {counters.map((counter, index) => (
-                        <div key={index}>
-                            <h3>
-                                {index >= 0
-                                    ? counter >= 2
-                                        ? `${counter}+`
-                                        : counter
-                                    : counter.toLocaleString()}
-                            </h3>
-                            <p>
-                                {index === 0
-                                    ? "STUDENTS"
-                                    : index === 1
-                                        ? "LEARNING"
-                                        : index === 2
-                                            ? "INTEREST"
-                                            : "KARMA"
-                                }
-                            </p>
-                            <p>
-                                {index === 0
-                                    ? "ENROLLED"
-                                    : index === 1
-                                        ? "CIRCLES"
-                                        : index === 2
-                                            ? "GROUPS"
-                                            : "MINED"}
-                            </p>
-                        </div>
-                    ))}
-                </div>
-                <div className={styles.rightContainer}>
-                    <ULearn />
-                    <h2>Rank:{data.statistics.rank}</h2>
-                </div>
-            </div>
-        </div>
-    );
+  <div className={styles.StatWrapper}>
+    <h1>Our Statistics</h1>
+    <div className={styles.contentDiv}>
+      <div className={styles.leftContainer} ref={targetRef}>
+        {counters.map((counter, index) => (
+          <div key={index}>
+            <h3>
+              {index === 3 // 👈 Only Karma (4th item) gets "k+"
+                ? `${counter}k+`
+                : counter >= 2
+                ? `${counter}+`
+                : counter}
+            </h3>
+            <p>
+              {index === 0
+                ? "STUDENTS"
+                : index === 1
+                ? "LEARNING"
+                : index === 2
+                ? "INTEREST"
+                : "KARMA"}
+            </p>
+            <p>
+              {index === 0
+                ? "ENROLLED"
+                : index === 1
+                ? "CIRCLES"
+                : index === 2
+                ? "GROUPS"
+                : "MINED"}
+            </p>
+          </div>
+        ))}
+      </div>
+      <div className={styles.rightContainer}>
+        <ULearn />
+      </div>
+    </div>
+  </div>
+);
 };
 
 export default Statistics;
